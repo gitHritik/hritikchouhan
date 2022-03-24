@@ -1,0 +1,105 @@
+.myskill__complete {
+  padding-top: 60px;
+}
+#sHeading {
+  font-size: 39px;
+  font-family: "Rufina", serif;
+  margin-top: 6px;
+  margin-bottom: 127px;
+  text-align: center;
+}
+.skillContainer {
+  margin-left: 26px;
+  margin-top: -104px;
+  padding: 22px;
+  font-family: sans-serif;
+}
+.skillbox {
+  display: flex;
+  flex-direction: column;
+  margin: 39px;
+  font-size: 21px;
+  /* justify-content: center;
+    align-items: center; */
+}
+.skills {
+  background-color: #ec5b53;
+  width: 312px;
+  height: 21px;
+  border-radius: 32px;
+}
+.hundered {
+  width: 312px;
+}
+.seven {
+  width: 295px;
+}
+.five {
+  width: 230px;
+}
+.three {
+  width: 200px;
+}
+.totalRating {
+  background-color: rgb(223, 206, 206);
+  width: 389px;
+  height: 21px;
+  border-radius: 32px;
+}
+.lineUp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #e1ebf7;
+  font-family: "Rufina", serif;
+}
+.sidebarGo {
+  transform: translate(-234px, 0px);
+  /* position: absolute; */
+}
+.humburger {
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  cursor: pointer;
+}
+.hum {
+  cursor: pointer;
+}
+.cross {
+  margin-left: 186px;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .myskill__complete {
+    padding-top: 65px;
+  }
+  .lineUp {
+    flex-direction: column;
+    border: none;
+  }
+  #sHeading {
+    margin-top: 15px;
+    margin-bottom: 104px;
+    font-size: 25px;
+  }
+  .skillbox {
+    margin: 15px 0px;
+  }
+  .totalRating {
+    width: 263px;
+  }
+  .hundered {
+    width: 231px;
+  }
+  .seven {
+    width: 198px;
+  }
+  .five {
+    width: 152px;
+  }
+  .three {
+    width: 134px;
+  }
+}

@@ -1,0 +1,50 @@
+.footer {
+  background: #080827;
+  /* font-size: 50px;
+  display: block; */
+  color: #fff;
+  /* font-weight: 400;
+  margin-bottom: 20px; */
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__img {
+  height: 85px;
+  margin: 34px 22px;
+}
+.footer__email {
+  font-size: 50px;
+  display: block;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer__container > p {
+  font-family: "Rubik", sans-serif;
+  color: #c5c5dd;
+  margin-bottom: 1px;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.footer__icon {
+  display: flex;
+  margin: 3px;
+  cursor: pointer;
+}
+.footer__gitIcon {
+  margin-right: 6px;
+}
+@media screen and (max-width: 760px) {
+  .footer__email {
+    font-size: 24px;
+  }
+  .footer__img {
+    margin: 34px 21px;
+  }
+}

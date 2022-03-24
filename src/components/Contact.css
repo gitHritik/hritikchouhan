@@ -1,0 +1,123 @@
+.contact__complete {
+  padding-top: 135px;
+}
+
+.contact {
+  box-sizing: content-box;
+}
+.contact h1 {
+  text-align: center;
+  margin-bottom: 31px;
+  font-size: 39px;
+  font-family: "Rufina", serif;
+  margin-top: -62px;
+}
+.contact__container {
+  display: flex;
+  background-color: #fffbfd;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact__info {
+  flex: 0.78;
+  padding: 81px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 53px;
+}
+.contact__info > h2 {
+  font-size: 48px;
+  display: block;
+  color: #000a2d;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.contact__info > p {
+  font-family: "Rubik", sans-serif;
+  color: #10285d;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+.contact__signature {
+  font-size: 38px;
+  margin-top: 52px;
+  font-family: cursive !important;
+}
+.contact__form {
+  flex: 0.55;
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+form > input,
+textarea {
+  background: #fff;
+  height: 60px;
+  font-size: 19px;
+  width: 85%;
+  padding: 10px 26px;
+  border: 0;
+  color: #a3a3a3;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 30px;
+  border: none;
+}
+.contact__button {
+  background: #ec5b53;
+  width: 85%;
+  height: 60px;
+  padding: 10px 28px;
+  border: 0;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 16px;
+}
+.contact__button:hover {
+  background: #fd463c;
+  border: none;
+  outline: 0;
+}
+input:focus {
+  outline: 0;
+}
+textarea:focus {
+  outline: 0;
+}
+@media screen and (max-width: 760px) {
+  .contact__info {
+    display: none;
+  }
+  .contact__signature {
+    display: none;
+  }
+  form {
+    align-items: center;
+    margin-top: 43px;
+  }
+  form > input,
+  textarea {
+    height: 59px;
+    width: 130%;
+  }
+  .contact__button {
+    width: 130%;
+    margin-bottom: 22px;
+    padding: 4px 27px;
+  }
+  .contact h1 {
+    margin-top: -42px;
+    font-size: 25px;
+  }
+}

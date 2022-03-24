@@ -1,0 +1,87 @@
+.Intro__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e3e4e8;
+  margin-top: 16px;
+  padding: 51px;
+  letter-spacing: 1.3px;
+}
+.Intro__info {
+  flex: 0.65;
+  font-family: sans-serif;
+  color: #002d5b;
+}
+
+.Intro__infoHeading {
+  font-size: 57px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+.Intro__aboutMe {
+  margin-bottom: 15px;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.Intro__description {
+  font-size: 18px;
+}
+.Intro__profile > img {
+  height: 400px;
+  margin-top: 32px;
+}
+.Intro__buttons {
+  margin-top: 22px;
+}
+.Intro__button {
+  padding: 19px 44px;
+  background: #ec5b53;
+  /* border: 1px solid red; */
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.Intro__button1 {
+  padding: 19px 49px;
+  background-color: transparent;
+  border: 1px solid #ff958f;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  border-radius: 7px;
+  margin-left: 14px;
+  cursor: pointer;
+}
+
+.Intro__button:hover {
+  background-color: #dd433b;
+}
+.Intro__button1:hover {
+  background-color: #dd433b;
+  color: white;
+}
+@media screen and (max-width: 760px) {
+  .Intro__profile {
+    display: none;
+  }
+  .Intro__infoHeading {
+    font-size: 28px;
+    flex-wrap: wrap;
+    width: 311px;
+  }
+  .Intro__aboutMe {
+    font-size: 20px;
+  }
+  .Intro__button1 {
+    display: none;
+  }
+  .Intro__info {
+    margin-top: 31px;
+  }
+  .Intro__description {
+    width: fit-content;
+  }
+}
