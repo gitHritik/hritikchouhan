@@ -8,7 +8,7 @@ function About() {
         <h1 className="about__heading">About Me</h1>
         <div className="about">
           <div className="about__profileImage">
-            <img src="/images/1.jpeg" alt="" />
+            <img src="/images/9.png" alt="" />
           </div>
           <div className="about__info">
             <h1>I Create Products Not Just Art.</h1>

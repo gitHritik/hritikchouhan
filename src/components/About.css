@@ -28,7 +28,8 @@
   height: 661px;
   margin-left: 130px;
   margin-top: 61px;
-  width: 414px;
+  object-fit: cover;
+  width: 470px;
 }
 .about__info {
   margin-top: 60px;
@@ -62,15 +63,18 @@
   font-weight: bolder;
 }
 @media screen and (max-width: 760px) {
+  .about__profileImage {
+    width: fit-content;
+  }
   .about__complete {
     padding-top: 80px;
   }
   .about__container {
-    height: 1395px;
+    height: 1122px;
   }
   .about {
     flex-direction: column;
-    margin-top: -12px;
+    margin-top: 33px;
   }
   .about__heading {
     margin-top: 0;
@@ -78,8 +82,9 @@
     font-size: 25px;
   }
   .about__profileImage > img {
-    margin: 28px -46px;
-    width: 357px;
+    margin: -106px -45px;
+    object-fit: contain;
+    width: 352px;
   }
   .about__info {
     width: fit-content;

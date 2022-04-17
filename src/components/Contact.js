@@ -44,20 +44,29 @@ function Contact() {
           <div className="contact__form">
             <form onSubmit={handleSubmit}>
               <input
+                type="text"
                 placeholder="Full Name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
+                minLength={5}
+                required
               />
               <input
+                type="email"
                 placeholder="Email Address"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                minLength={5}
+                required
               />
               <textarea
+                type="text"
                 cols="30"
                 placeholder="Your Message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
+                minLength={10}
+                required
                 rows="10"
               ></textarea>
               <button type="submit" className="contact__button">

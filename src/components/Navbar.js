@@ -3,6 +3,7 @@ import "./Navbar.css";
 import Link from "react-scroll/modules/components/Link";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import { NavLink } from "react-router-dom";
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
   return (
