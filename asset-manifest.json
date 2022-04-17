@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hritikchouhan/static/css/main.c117a5fd.css",
+    "main.js": "/hritikchouhan/static/js/main.2b0043f0.js",
+    "index.html": "/hritikchouhan/index.html",
+    "main.c117a5fd.css.map": "/hritikchouhan/static/css/main.c117a5fd.css.map",
+    "main.2b0043f0.js.map": "/hritikchouhan/static/js/main.2b0043f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c117a5fd.css",
+    "static/js/main.2b0043f0.js"
+  ]
+}
