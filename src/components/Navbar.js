@@ -11,7 +11,7 @@ function Navbar() {
       <nav>
         <Link to="navbar" smooth={true} duration={50}>
           <div className="nav__logo">
-            <img src="/images/logo.webp" alt="portfolio" />
+            <img src="images/logo.webp" alt="portfolio" />
           </div>
         </Link>
 

@@ -17,7 +17,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer__container">
-        <img className="footer__img" src="/images/logo1.webp" alt="Portfolio" />
+        <img className="footer__img" src="images/logo1.webp" alt="Portfolio" />
         <h2 className="footer__email">hritikchouhan54@gmail.com</h2>
         <p>Roorkee Haridware , Uttrakhand</p>
         <p>New Delhi , India</p>

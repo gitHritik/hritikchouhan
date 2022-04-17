@@ -9,7 +9,7 @@ function Services() {
         <div className="services__container">
           <div className="services__card">
             <div className="services__img">
-              <img src="/images/web.svg" alt="" />
+              <img src="images/web.svg" alt="" />
             </div>
             <div className="services__heading">
               <h5>Website Design</h5>
@@ -24,7 +24,7 @@ function Services() {
           </div>
           <div className="services__card">
             <div className="services__img">
-              <img src="/images/card2.svg" alt="" />
+              <img src="images/card2.svg" alt="" />
             </div>
             <div className="services__heading">
               <h5>App Development</h5>
@@ -39,7 +39,7 @@ function Services() {
           </div>
           <div className="services__card">
             <div className="services__img">
-              <img src="/images/card3.svg" alt="" />
+              <img src="images/card3.svg" alt="" />
             </div>
             <div className="services__heading">
               <h5>UI/UX Design</h5>

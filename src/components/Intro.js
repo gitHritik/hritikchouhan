@@ -26,7 +26,7 @@ function Intro() {
       </div>
 
       <div className="Intro__profile">
-        <img src="/images/introImage1.png" />
+        <img src="images/introImage1.png" />
       </div>
     </div>
   );
