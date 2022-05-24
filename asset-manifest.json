@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hritikchouhan/static/css/main.c117a5fd.css",
-    "main.js": "/hritikchouhan/static/js/main.e416e484.js",
+    "main.css": "/hritikchouhan/static/css/main.a2712558.css",
+    "main.js": "/hritikchouhan/static/js/main.10f6eed7.js",
     "index.html": "/hritikchouhan/index.html",
-    "main.c117a5fd.css.map": "/hritikchouhan/static/css/main.c117a5fd.css.map",
-    "main.e416e484.js.map": "/hritikchouhan/static/js/main.e416e484.js.map"
+    "main.a2712558.css.map": "/hritikchouhan/static/css/main.a2712558.css.map",
+    "main.10f6eed7.js.map": "/hritikchouhan/static/js/main.10f6eed7.js.map"
   },
   "entrypoints": [
-    "static/css/main.c117a5fd.css",
-    "static/js/main.e416e484.js"
+    "static/css/main.a2712558.css",
+    "static/js/main.10f6eed7.js"
   ]
 }
