@@ -1,5 +1,5 @@
 import "./Contact.css";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 // import { useState } from "react";
 // import { db } from "../firebase";
 import emailjs from "@emailjs/browser";
@@ -8,9 +8,9 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   // const handleSubmit = (e) => {
   //   e.preventDefault();
   //   db.collection("contacts")
@@ -67,6 +67,9 @@ function Contact() {
           });
         }
       );
+    setName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
@@ -102,8 +105,8 @@ function Contact() {
                   type="text"
                   name="name"
                   placeholder="Full Name"
-                  // value={name}
-                  // onChange={(e) => setName(e.target.value)}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   minLength={5}
                   required
                 />
@@ -111,8 +114,8 @@ function Contact() {
                   type="email"
                   name="email"
                   placeholder="Email Address"
-                  // value={email}
-                  // onChange={(e) => setEmail(e.target.value)}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   minLength={5}
                   required
                 />
@@ -121,8 +124,8 @@ function Contact() {
                   cols="30"
                   placeholder="Your Message"
                   name="message"
-                  // value={message}
-                  // onChange={(e) => setMessage(e.target.value)}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   minLength={10}
                   required
                   rows="10"
