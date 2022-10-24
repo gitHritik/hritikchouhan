@@ -9,6 +9,7 @@ function About() {
         <div className="about">
           <div className="about__profileImage">
             <img src="images/9.png" alt="" />
+            {/* <img alt="about" src={require("./img/9.png")} /> */}
           </div>
           <div className="about__info">
             <h1>I Create Products Not Just Art.</h1>

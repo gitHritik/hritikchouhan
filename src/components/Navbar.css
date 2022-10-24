@@ -107,3 +107,11 @@ li:hover {
     background-color: #222;
   }
 }
+
+.active{
+  color:rgb(228, 126, 126);
+}
+
+.activeClass{
+  color:black
+}

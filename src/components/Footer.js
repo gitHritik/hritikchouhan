@@ -22,13 +22,18 @@ function Footer() {
         <p>Roorkee Haridware , Uttrakhand</p>
         <p>New Delhi , India</p>
         <div className="footer__icon">
-          <a target="_blank" href={"https://github.com/gitHritik"}>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            href={"https://github.com/gitHritik"}
+          >
             <GitHubIcon
               // onClick={handlClick}
               className="footer__gitIcon"
             />
           </a>
           <a
+            rel="noreferrer"
             target="_blank"
             href={"https://www.linkedin.com/in/hritik-chouhan-0522051b6/"}
           >

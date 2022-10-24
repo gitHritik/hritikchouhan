@@ -1,0 +1,116 @@
+.project__complete{
+    padding-top: 64px;
+}
+
+#sHeading {
+    font-size: 39px;
+    font-family: "Rufina", serif;
+    margin-top: 6px;
+    margin-bottom: 67px;
+    text-align: center;
+}
+
+.project__container{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    /* flex-direction: column; */
+    transition: all 0.4s ease-out 0s;
+  }
+  .project__box{
+    display: flex;
+    border: 1px solid #e1ebf7;
+    margin-left: 12px;
+    margin-right: 12px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 22px;
+  }
+.project__intro{
+  flex: 0.78;
+  padding: 22px;
+
+
+}
+.project__details{
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  word-spacing: 2px;
+  
+  
+}
+.project__title{
+  color: black;
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 39px;
+  font-family: "Rufina", serif;
+}
+.project__title>a{
+  text-decoration: none;
+  color: black;
+}
+.project__title>a:hover{
+color: #fd463c;
+transition: all 0.4s ease-out 0s;
+}
+
+.project__images{
+  box-sizing: content-box;
+}
+
+.project__images> img{
+    height: 339px;
+    width: 98%;
+}
+.btn{
+  margin-top: 22px;
+}
+.btn>button{
+  padding: 10px 11px;
+  background: #ec5b53;
+  color: #fff;
+  border: 0;
+}
+button:hover{
+  background: #fd463c;
+  border: none;
+}
+button>img{
+  filter: invert(100%) !important;
+}
+
+/* resposive ness*/
+
+@media screen and (max-width: 760px) {
+  .project__box{
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding: 0px;
+    border-top: none;
+    border-bottom: 1px solid #e1ebf7;
+  }
+  .project__title{
+    color: black;
+    font-size: 32px;
+    font-family: "Rufina", serif;
+    text-align: center;
+  
+  }
+  .project__title > h1{
+   text-decoration: none;
+  }
+  .project__details{
+    font-size: 16px;
+    text-align: center;
+  }
+  .your-app {
+    background-color: red !important;
+  }
+  .btn{
+   text-align: center;
+  }
+  
+}

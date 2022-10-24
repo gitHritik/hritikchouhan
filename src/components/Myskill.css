@@ -5,12 +5,15 @@
   font-size: 39px;
   font-family: "Rufina", serif;
   margin-top: 6px;
-  margin-bottom: 127px;
+  margin-bottom: 67px;
   text-align: center;
+}
+.main h1{
+  margin-bottom: 126px !important;
 }
 .skillContainer {
   margin-left: 26px;
-  margin-top: -104px;
+  margin-top: -78px;
   padding: 22px;
   font-family: sans-serif;
 }

@@ -26,7 +26,9 @@ function Intro() {
       </div>
 
       <div className="Intro__profile">
-        <img src="images/introImage1.png" />
+        {/* <img alt="intro" src={require("./img/introImage1.png")} /> */}
+
+        <img alt="intro" src="images/introImage1.png" />
       </div>
     </div>
   );

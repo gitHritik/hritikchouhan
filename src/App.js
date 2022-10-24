@@ -7,6 +7,7 @@ import Myskill from "./components/Myskill";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Services />
       <Myskill />
+      <Project />
       <Contact />
       <Footer />
     </div>
