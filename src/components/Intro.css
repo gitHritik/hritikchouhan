@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .Intro__button1 {
-  padding: 19px 49px;
+  padding: 19px 44px;
   background-color: transparent;
   border: 1px solid #ff958f;
   color: black;
@@ -56,13 +56,13 @@
   cursor: pointer;
 }
 
-.Intro__button:hover {
-  background-color: #dd433b;
-}
-.Intro__button1:hover {
-  background-color: #dd433b;
-  color: white;
-}
+/* .Intro__button:hover { */
+  /* background-color: #dd433b; */
+/* } */
+/* .Intro__button1:hover { */
+  /* background-color: #dd433b;
+  color: white; */
+/* } */
 @media screen and (max-width: 760px) {
   .Intro__profile {
     display: none;

@@ -3,6 +3,18 @@ import Link from "react-scroll/modules/components/Link";
 import "./Intro.css";
 
 function Intro() {
+  const onButtonClick = () => {
+    fetch("Hritik.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Hritik.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <div className="Intro__container">
       <div className="Intro__info">
@@ -15,9 +27,9 @@ function Intro() {
           experience working with C++, Firebase, Tailwind Css and MongoDB.
         </p>
         <div className="Intro__buttons">
-          <Link to="about" smooth={true} duration={50}>
-            <button className="Intro__button">Learn More</button>
-          </Link>
+          <button className="Intro__button" onClick={onButtonClick}>
+            Download CV
+          </button>
 
           <Link to="contact" smooth={true} duration={50}>
             <button className="Intro__button1">Hire Me</button>
