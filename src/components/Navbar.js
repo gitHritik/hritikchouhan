@@ -94,7 +94,7 @@ function Navbar() {
             <Link to="project" smooth={true} duration={50}>
               <li
                 className={
-                  isActive > 2515 && isActive <= 4044 && !isMobile
+                  isActive > 2515 && isActive <= 3900 && !isMobile
                     ? "active"
                     : "activeClass"
                 }
@@ -107,7 +107,7 @@ function Navbar() {
             <Link to="contact" smooth={true} duration={50}>
               <li
                 className={
-                  isActive > 4044 && isActive < 5000 && !isMobile
+                  isActive > 3900 && isActive < 5000 && !isMobile
                     ? "active"
                     : "activeClass"
                 }

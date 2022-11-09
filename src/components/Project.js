@@ -69,7 +69,7 @@ const Project = () => {
                   href={"https://github.com/gitHritik/ShareCourse"}
                 >
                   <div className="btn">
-                    <button>View Code</button>
+                    <button className="project__btn">View Code</button>
                   </div>
                 </a>
               </div>
@@ -121,7 +121,7 @@ const Project = () => {
                     href={"https://github.com/gitHritik/Amazon_clone"}
                   >
                     <div className="btn">
-                      <button>View Code</button>
+                      <button className="project__btn">View Code</button>
                     </div>
                   </a>
                 </div>
@@ -174,7 +174,7 @@ const Project = () => {
                     href={"https://github.com/gitHritik/Booking"}
                   >
                     <div className="btn">
-                      <button>View Code</button>
+                      <button className="project__btn">View Code</button>
                     </div>
                   </a>
                 </div>

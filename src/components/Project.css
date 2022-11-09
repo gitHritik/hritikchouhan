@@ -67,18 +67,20 @@ transition: all 0.4s ease-out 0s;
 }
 .btn{
   margin-top: 22px;
+  
 }
-.btn>button{
+.project__btn{
   padding: 10px 11px;
   background: #ec5b53;
   color: #fff;
+  cursor: pointer;
   border: 0;
 }
-button:hover{
+.project__btn:hover{
   background: #fd463c;
   border: none;
 }
-button>img{
+.project__btn>img{
   filter: invert(100%) !important;
 }
 
