@@ -4,13 +4,13 @@ import "./Intro.css";
 
 function Intro() {
   const onButtonClick = () => {
-    fetch("Hritik_Resuma.pdf").then((response) => {
+    fetch("Hritik_Resume.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
 
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Hritik_Resuma.pdf";
+        alink.download = "Hritik_Resume.pdf";
         alink.click();
       });
     });
@@ -28,7 +28,7 @@ function Intro() {
         </p>
         <div className="Intro__buttons">
           <button className="Intro__button" onClick={onButtonClick}>
-            Download CV
+            Download Resume
           </button>
 
           <Link to="contact" smooth={true} duration={50}>
