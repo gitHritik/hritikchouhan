@@ -4,13 +4,13 @@ import "./Intro.css";
 
 function Intro() {
   const onButtonClick = () => {
-    fetch("Hritik_Resume.pdf").then((response) => {
+    fetch("Hritik_Chouhan.pdf").then((response) => {
       response.blob().then((blob) => {
         const fileURL = window.URL.createObjectURL(blob);
 
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Hritik_Resume.pdf";
+        alink.download = "Hritik_Chouhan.pdf";
         alink.click();
       });
     });
