@@ -16,9 +16,9 @@ function Services() {
             </div>
             <div className="services__description">
               <p>
-                I have a lot experience in web design i have design a lot
-                website i will design any website realted to your content and i
-                will just code the website the way you want..
+                I have a lot of experience in web design and have designed many
+                websites. I can design any website related to your content and
+                code it exactly the way you want.
               </p>
             </div>
           </div>
@@ -31,9 +31,9 @@ function Services() {
             </div>
             <div className="services__description">
               <p>
-                I will create the App the way you want i got the knowledge of
-                React Native which i wil used for create your app i am very
-                enthusiast for app development..
+                I will create the app the way you want. I have knowledge of
+                React Native, which I will use to build your app. I am very
+                enthusiastic about app development.
               </p>
             </div>
           </div>
@@ -46,9 +46,9 @@ function Services() {
             </div>
             <div className="services__description">
               <p>
-                UI/UX Design is the fundametal to create a website it is the
-                first step to create website.Work closely with product
-                management in UX ideation and innovation
+                UI/UX design is fundamental to creating a website; it is the
+                first step in the process. I work closely with product
+                management in UX ideation and innovation.
               </p>
             </div>
           </div>

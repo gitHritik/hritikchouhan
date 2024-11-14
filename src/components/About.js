@@ -14,32 +14,28 @@ function About() {
           <div className="about__info">
             <h1>I Create Products Not Just Art.</h1>
             <p>
-              I am passionate about Web Development & designing. I am a skilled
-              full stack developer with 3+ years experience.
+              I'm Hritik Chouhan, a Full Stack Developer and AI Enthusiast with
+              a creative mindset and a dedication to impactful web development.
+              My passion lies in building digital experiences that are not only
+              visually appealing but also highly functional and optimized for
+              performance.
             </p>
             <p>
-              I have rich experience in website design and building, Website
-              Speed Optimization. I am a quick learner and a team worker that
-              gets the job done.
+              With expertise in the latest technologies like React.js, Node.js,
+              MongoDB, and Tailwind CSS, I bring an all-rounded approach to full
+              stack development, designing user-friendly interfaces while
+              ensuring robust backend performance. Whether it's crafting
+              seamless front-end designs or developing efficient server-side
+              logic, I focus on every detail to make each project stand out.
             </p>
             <p>
-              I can easily capitalize on low hanging fruits and quickly maximize
-              timely deliverables for real-time schemas. I love to talk with you
-              about our uniqueness......
+              I’m a quick learner and thrive in collaborative environments where
+              ideas and skills are shared. Alongside my technical skills, I’m
+              always exploring new trends in technology and expanding my
+              knowledge to stay at the forefront of web development. I believe
+              in continuous learning and am excited about the endless
+              possibilities within the tech world.
             </p>
-            <p>I have a lot of knowledge of vast topics...</p>
-            <div className="row">
-              <div className="info">
-                Age: <span className="info__data"> 20</span>
-              </div>
-              <div className="info">
-                Email:{" "}
-                <span className="info__data"> hritikchouhan54@gmail.com</span>
-              </div>
-              <div className="info">
-                State: <span className="info__data"> Uttrakhand/Roorkee</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

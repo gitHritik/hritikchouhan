@@ -3,7 +3,6 @@
 }
 #sHeading {
   font-size: 39px;
-  font-family: "Rufina", serif;
   margin-top: 6px;
   margin-bottom: 67px;
   text-align: center;
@@ -15,7 +14,7 @@
   margin-left: 26px;
   margin-top: -78px;
   padding: 22px;
-  font-family: sans-serif;
+ 
 }
 .skillbox {
   display: flex;
@@ -54,7 +53,7 @@
   justify-content: space-around;
   align-items: center;
   border: 1px solid #e1ebf7;
-  font-family: "Rufina", serif;
+  
 }
 .sidebarGo {
   transform: translate(-234px, 0px);

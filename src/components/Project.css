@@ -4,7 +4,7 @@
 
 #sHeading {
     font-size: 39px;
-    font-family: "Rufina", serif;
+    
     margin-top: 6px;
     margin-bottom: 67px;
     text-align: center;
@@ -34,7 +34,7 @@
 
 }
 .project__details{
-  font-family: "Rubik", sans-serif;
+
   font-size: 16px;
   line-height: 30px;
   word-spacing: 2px;
@@ -46,7 +46,7 @@
   text-align: center;
   margin-bottom: 32px;
   font-size: 39px;
-  font-family: "Rufina", serif;
+ 
 }
 .project__title>a{
   text-decoration: none;
@@ -97,7 +97,7 @@ transition: all 0.4s ease-out 0s;
   .project__title{
     color: black;
     font-size: 32px;
-    font-family: "Rufina", serif;
+    
     text-align: center;
   
   }

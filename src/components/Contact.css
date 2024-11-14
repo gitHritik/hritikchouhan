@@ -9,7 +9,7 @@
   text-align: center;
   margin-bottom: 31px;
   font-size: 39px;
-  font-family: "Rufina", serif;
+  
   margin-top: -62px;
 }
 .contact__container {
@@ -37,7 +37,7 @@
   margin-bottom: 40px;
 }
 .contact__info > p {
-  font-family: "Rubik", sans-serif;
+ 
   color: #10285d;
   line-height: 30px;
   margin-bottom: 15px;

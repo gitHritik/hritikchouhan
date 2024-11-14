@@ -2,14 +2,11 @@
   padding-top: 63px;
 }
 
-.services {
-  font-family: sans-serif;
-}
+
 .services > h1 {
   text-align: center;
   margin-bottom: 10px;
   font-size: 39px;
-  font-family: "Rufina", serif;
 }
 .services__container {
   display: flex;

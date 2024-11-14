@@ -50,75 +50,24 @@ const Project = () => {
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href={"https://github.com/gitHritik/ShareCourse"}
-                  >
-                    <h5>ShareCourse</h5>
-                  </a>
-                </div>
-
-                <div className="project__details">
-                  I have created this ShareCourse website design and here I have
-                  used tailwind Css and ReactJS framework and for the payment
-                  gateway I have used stripe js. This is just a simple design of
-                  course selling website and I have also implement google
-                  authentication using google auth.
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  href={"https://github.com/gitHritik/ShareCourse"}
-                >
-                  <div className="btn">
-                    <button className="project__btn">View Code</button>
-                  </div>
-                </a>
-              </div>
-
-              <div className="project__images">
-                {width > 760 ? (
-                  <SimpleImageSlider
-                    width={590}
-                    height={339}
-                    images={Share}
-                    showBullets={true}
-                    showNavs={true}
-                  />
-                ) : (
-                  <SimpleImageSlider
-                    width={350}
-                    height={200}
-                    images={Share}
-                    showBullets={true}
-                    showNavs={true}
-                  />
-                )}
-              </div>
-            </div>
-          </div>
-          <div className="project__container">
-            <div className="project__box">
-              <div className="project__intro">
-                <div className="project__title">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
                     href={"https://github.com/gitHritik/Amazon_clone"}
                   >
-                    <h5>AmazonClone</h5>
+                    <h5>TicketLess</h5>
                   </a>
                 </div>
                 <div className="project__details">
-                  I have created Amazon Clone on my behalf and I have tried to
-                  learn some of new things and try to explore how the real
-                  websites have been created here I have used ReactJS and
-                  Firebase for backend.This website is created for fun and to
-                  explore something new.
+                  TicketLess is a fully-featured web application that allows
+                  users to book tickets for monuments, museums, and other
+                  attractions online, eliminating the need for physical visits.
+                  This platform offers a seamless, user-friendly experience for
+                  browsing available attractions and booking tickets directly
+                  from the comfort of your home.
                 </div>
                 <div className="btn">
                   <a
                     rel="noreferrer"
                     target="_blank"
-                    href={"https://github.com/gitHritik/Amazon_clone"}
+                    href={"https://github.com/gitHritik/TicketLess"}
                   >
                     <div className="btn">
                       <button className="project__btn">View Code</button>
@@ -155,17 +104,76 @@ const Project = () => {
                   <a
                     rel="noreferrer"
                     target="_blank"
+                    href={"https://github.com/gitHritik/ShareCourse"}
+                  >
+                    <h5>ShareCourse</h5>
+                  </a>
+                </div>
+
+                <div className="project__details">
+                  I have designed the ShareCourse website, utilizing Tailwind
+                  CSS and the ReactJS framework. The website features a seamless
+                  payment gateway integration with Stripe.js, allowing users to
+                  purchase courses easily. In addition, I have implemented
+                  Google Authentication using Google Auth, enabling users to log
+                  in effortlessly. This simple yet effective course-selling
+                  platform provides an intuitive way to browse and purchase
+                  courses online.
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href={"https://github.com/gitHritik/ShareCourse"}
+                >
+                  <div className="btn">
+                    <button className="project__btn">View Code</button>
+                  </div>
+                </a>
+              </div>
+
+              <div className="project__images">
+                {width > 760 ? (
+                  <SimpleImageSlider
+                    width={590}
+                    height={339}
+                    images={Share}
+                    showBullets={true}
+                    showNavs={true}
+                  />
+                ) : (
+                  <SimpleImageSlider
+                    width={350}
+                    height={200}
+                    images={Share}
+                    showBullets={true}
+                    showNavs={true}
+                  />
+                )}
+              </div>
+            </div>
+          </div>
+
+          <div className="project__container">
+            <div className="project__box">
+              <div className="project__intro">
+                <div className="project__title">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
                     href={"https://github.com/gitHritik/Booking"}
                   >
                     <h5>HotelBooking</h5>
                   </a>
                 </div>
                 <div className="project__details">
-                  I have created Booking website using complete MERN stack here
-                  you can look for hotels and even use Rest API like post, get,
-                  update, put and it is complete CRUD web application and
-                  moongoose cluster for the database and it is also created for
-                  learn something new this is not a real life project.
+                  I have developed a Hotel Booking website using the complete
+                  MERN stack. This web application allows users to search for
+                  hotels, manage bookings, and perform CRUD operations (Create,
+                  Read, Update, Delete) through RESTful APIs using POST, GET,
+                  UPDATE, and DELETE methods. The backend is powered by Node.js
+                  and Express, with MongoDB and Mongoose managing the database,
+                  utilizing a cloud-based MongoDB cluster for data storage and
+                  retrieval.
                 </div>
                 <div className="btn">
                   <a

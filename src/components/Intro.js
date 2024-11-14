@@ -18,13 +18,16 @@ function Intro() {
   return (
     <div className="Intro__container">
       <div className="Intro__info">
-        <h1 className="Intro__infoHeading">Hello,Guys I am Hritik Chouhan</h1>
-        <h2 className="Intro__aboutMe">MERN-Stack Developer || C++</h2>
+        <h1 className="Intro__infoHeading">Hello, I'm Hritik Chouhan!</h1>
+        <h2 className="Intro__aboutMe">Full Stack Developer | AI Enthusiast</h2>
         <p className="Intro__description">
-          I am a Full Stack developer with a lot of experience building websites
-          and web applications. I specialize in React Js and javascript and have
-          so much experience working with React.js and Node.js. I also have
-          experience working with C++, Firebase, Tailwind Css and MongoDB.
+          As a full stack developer, I’m passionate about crafting seamless,
+          responsive web experiences. My core strengths are in JavaScript and
+          React.js, where I turn ideas into interactive, user-friendly
+          interfaces. On the backend, I bring Node.js and MongoDB expertise to
+          build scalable, efficient architectures. From Firebase integration to
+          sleek styling with Tailwind CSS, I prioritize performance and
+          precision in every project. Let’s build something exceptional!
         </p>
         <div className="Intro__buttons">
           <button className="Intro__button" onClick={onButtonClick}>
