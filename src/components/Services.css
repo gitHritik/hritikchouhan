@@ -82,7 +82,7 @@
 
 @media screen and (max-width: 760px) {
   .services__complete {
-    padding-top: 75px;
+    padding-top: 375px;
   }
   .services__container {
     flex-direction: column;
